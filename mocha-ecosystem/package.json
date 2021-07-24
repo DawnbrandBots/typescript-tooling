@@ -1,0 +1,29 @@
+{
+	"name": "@alphakretin/mocha-ecosystem",
+	"version": "1.0.0",
+	"license": "AGPL-3.0-or-later",
+	"main": ".nycrc.json",
+	"engines": {
+		"node": ">=14.x",
+		"yarn": "1.22.x"
+	},
+	"dependencies": {
+		"@istanbuljs/nyc-config-typescript": "^1.0.1",
+		"@types/chai": "^4.2.21",
+		"@types/chai-as-promised": "^7.1.4",
+		"@types/mocha": "^8.2.3",
+		"@types/proxyquire": "^1.3.28",
+		"@types/sinon": "^10.0.2",
+		"@types/sinon-chai": "^3.2.5",
+		"@types/sinon-test": "^2.4.3",
+		"chai": "^4.3.4",
+		"chai-as-promised": "^7.1.1",
+		"coveralls": "^3.1.1",
+		"mocha": "^9.0.2",
+		"nyc": "^15.1.0",
+		"proxyquire": "^2.1.3",
+		"sinon": "^11.1.1",
+		"sinon-chai": "^3.7.0",
+		"sinon-test": "^3.1.0"
+	}
+}
