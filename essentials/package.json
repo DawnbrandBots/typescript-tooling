@@ -1,23 +1,46 @@
 {
-	"name": "@alphakretin/essentials",
-	"version": "1.0.0",
-	"description": "Basic essentials for programming in TypeScript.",
-	"license": "AGPL-3.0-or-later",
-	"main": ".prettierrc.json",
-	"engines": {
-		"node": ">=14.x",
-		"yarn": "1.22.x"
-	},
-	"dependencies": {
-		"@alphakretin/eslint-config": "../typescript-tooling/eslint-config",
-		"@tsconfig/node14": "^1.0.1",
-		"@types/node": "^14.17.5",
-		"@typescript-eslint/eslint-plugin": "^4.28.4",
-		"@typescript-eslint/parser": "^4.28.4",
-		"eslint": "^7.31.0",
-		"eslint-config-prettier": "^8.3.0",
-		"prettier": "2.3.2",
-		"ts-node": "^10.1.0",
-		"typescript": "~4.3.5"
-	}
+  "name": "@alphakretin/essentials",
+  "description": "Basic essentials for programming in TypeScript for Dawnbrand projects.",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "main": ".prettierrc.json",
+  "engines": {
+    "node": ">=14.x",
+    "yarn": "1.22.x"
+  },
+  "dependencies": {
+    "@alphakretin/eslint-config": "^1.0.0",
+    "@tsconfig/node14": "^1.0.1",
+    "@types/node": "^14.17.5",
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/parser": "^4.28.4",
+    "eslint": "^7.31.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "2.3.2",
+    "ts-node": "^10.1.0",
+    "typescript": "~4.3.5"
+  },
+  "homepage": "https://github.com/DawnbrandBots/typescript-tooling",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DawnbrandBots/typescript-tooling.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DawnbrandBots/typescript-tooling/issues"
+  },
+  "author": "Luna Brand",
+  "contributors": [
+    "Kevin Lu"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/alphakretinbots"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "prettier",
+    "ts",
+    "typescript"
+  ]
 }

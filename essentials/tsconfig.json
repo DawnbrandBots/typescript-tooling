@@ -1,14 +1,14 @@
 {
-	"extends": "@tsconfig/node14",
-	"compilerOptions": {
-		"moduleResolution": "node",
-		"resolveJsonModule": true,
-		"sourceMap": true,
-		"declaration": false,
-		"allowSyntheticDefaultImports": true,
-		"emitDecoratorMetadata": true,
-		"experimentalDecorators": true,
-		"incremental": true
-	},
-	"compileOnSave": true
+  "extends": "@tsconfig/node14",
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "declaration": false,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "incremental": true
+  },
+  "compileOnSave": true
 }

@@ -1,12 +1,34 @@
 {
-	"name": "@alphakretin/eslint-config",
-	"version": "1.0.0",
-	"main": ".eslintrc.json",
-	"license": "AGPL-3.0-or-later",
-	"peerDependencies": {
-		"@typescript-eslint/eslint-plugin": "^4.28.4",
-		"@typescript-eslint/parser": "^4.28.4",
-		"eslint": "^7.31.0",
-		"eslint-config-prettier": "^8.3.0"
-	}
+  "name": "@alphakretin/eslint-config",
+  "description": "ESLint configuration for Dawnbrand projects in TypeScript",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "main": ".eslintrc.json",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/parser": "^4.28.4",
+    "eslint": "^7.31.0",
+    "eslint-config-prettier": "^8.3.0"
+  },
+  "homepage": "https://github.com/DawnbrandBots/typescript-tooling",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DawnbrandBots/typescript-tooling.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DawnbrandBots/typescript-tooling/issues"
+  },
+  "author": "Luna Brand",
+  "contributors": [
+    "Kevin Lu"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/alphakretinbots"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "typescript"
+  ]
 }
