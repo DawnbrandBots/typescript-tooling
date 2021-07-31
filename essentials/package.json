@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "license": "Apache-2.0",
   "main": ".prettierrc.json",
+  "publishConfig": {
+    "access": "public"
+  },
   "engines": {
     "node": ">=14.x",
     "yarn": "1.22.x"
