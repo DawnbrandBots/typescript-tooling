@@ -1,28 +1,28 @@
 {
   "name": "@alphakretin/essentials",
   "description": "Basic essentials for programming in TypeScript for Dawnbrand projects.",
-  "version": "5.1.0",
+  "version": "6.0.0",
   "license": "Apache-2.0",
   "main": ".prettierrc.json",
   "publishConfig": {
     "access": "public"
   },
   "engines": {
-    "node": ">=18",
+    "node": ">=20",
     "yarn": "1.22.x"
   },
   "dependencies": {
-    "@alphakretin/eslint-config": "^2.1.0",
-    "@tsconfig/node18": "^18.2.0",
-    "@types/node": "^18.16.19",
-    "@typescript-eslint/eslint-plugin": "^5.61.0",
-    "@typescript-eslint/parser": "^5.61.0",
-    "eslint": "^8.44.0",
-    "eslint-config-prettier": "^8.8.0",
-    "prettier": "3.0.0",
+    "@alphakretin/eslint-config": "^3.0.0",
+    "@tsconfig/node20": "^20.1.2",
+    "@types/node": "^20.8.9",
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "@typescript-eslint/parser": "^6.9.0",
+    "eslint": "^8.52.0",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "3.0.3",
     "ts-node": "^10.9.1",
     "ts-node-dev": "^2.0.0",
-    "typescript": "~5.1.6"
+    "typescript": "~5.2.2"
   },
   "homepage": "https://github.com/DawnbrandBots/typescript-tooling",
   "repository": {
