@@ -1,17 +1,17 @@
 {
   "name": "@alphakretin/eslint-config",
   "description": "ESLint configuration for Dawnbrand projects in TypeScript",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "license": "Apache-2.0",
   "main": ".eslintrc.json",
   "publishConfig": {
     "access": "public"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.23.0",
-    "@typescript-eslint/parser": "^5.23.0",
-    "eslint": "^8.15.0",
-    "eslint-config-prettier": "^8.5.0"
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "@typescript-eslint/parser": "^6.9.0",
+    "eslint": "^8.52.0",
+    "eslint-config-prettier": "^9.0.0"
   },
   "homepage": "https://github.com/DawnbrandBots/typescript-tooling",
   "repository": {
